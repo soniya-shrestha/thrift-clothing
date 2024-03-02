@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Utilities */
+
+body {
+    background-color: #474747;
+}
+
+.container {
+    padding: 15px;
+    height: 100vh;
+}
+
+.row {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: #000;
+    ;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.rounded {
+    border-radius: 4px;
+}
+
+
+/* Nav */
+
+nav {
+    background-color: #a19d9d;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Protucts */
+
+.products {
+    background-color: #a19d9d;
+    padding: 30px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgdiv {
+    margin-top: 10px;
+    max-width: 500px;
+    border-radius: 4px;
+}
+
+.imgdiv img {
+    width: 100%;
+    height: auto;
+}
+
+footer .row {
+    background-color: #a19d9d;
+    color: #FFF;
+}
+
+.contact {
+    border-radius: 4px;
+}
+
+.contact_details p {
+    padding-top: 10px;
+}
+
+footer .contact {
+    padding: 60px 100px;
+    justify-content: space-between;
+}
+
+footer .footer_bottom {
+    height: 50px;
+    margin: 20px 0;
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 4px;
+}
+
+
+/* Content Div */
+
+.contentdiv {
+    width: 90%;
+    height: 500px;
+    margin: 40px;
+    background-color: #474747;
+}

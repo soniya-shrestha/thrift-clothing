@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Utilities */
+
+body {
+    background-color: #474747;
+}
+
+.container {
+    padding: 15px;
+    height: 100vh;
+}
+
+.row {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+a:hover {
+    color: #000;
+    ;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.rounded {
+    border-radius: 4px;
+}
+
+
+/* Nav */
+
+nav {
+    background-color: #a19d9d;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Protucts */
+
+.products {
+    background-color: #a19d9d;
+    padding: 30px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgdiv {
+    max-width: 500px;
+    border-radius: 4px;
+}
+
+.imgdiv img {
+    width: 100%;
+    height: auto;
+}
+
+.loginbox {
+    width: 400px;
+    height: fit-content;
+    background-color: #474747;
+    color: rgb(10, 10, 10);
+    margin: 50px auto;
+    padding: 30px;
+}
+
+.loginbox p {
+    font-size: 17px;
+}
+
+.loginbox h1 {
+    margin-top: 0px;
+}
+
+h2 {
+    color: #FFF;
+}
+
+.loginbox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+/* text field */
+
+.loginbox input[type="text"],
+input[type="email"],
+input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    height: 40px;
+    padding: 5px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    background: transparent;
+}
+
+
+/* submit button */
+
+.btn {
+    width: 100px;
+    height: 45px;
+    background-color: #a19d9d;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #fff;
+    transition: .3s;
+    color: #000;
+}
+
+footer .row {
+    background-color: #a19d9d;
+    color: #FFF;
+    ;
+}
+
+.contact_details p {
+    padding-top: 10px;
+}
+
+footer .contact {
+    padding: 60px 100px;
+    justify-content: space-between;
+}
+
+footer .footer_bottom {
+    height: 50px;
+    margin: 20px 0;
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 4px;
+}

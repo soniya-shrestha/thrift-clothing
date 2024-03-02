@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Utilities */
+
+body {
+    background-color: #474747;
+}
+
+.container {
+    padding: 15px;
+    height: 100vh;
+}
+
+.row {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: #000;
+    ;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.rounded {
+    border-radius: 4px;
+}
+
+
+/* Nav */
+
+nav {
+    background-color: #a19d9d;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* search container and button */
+
+form {
+    width: 270px;
+}
+
+input {
+    padding: 4px 10px;
+    border: 0;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.search {
+    background-color: #474747;
+    color: #FFF;
+    width: 65%;
+}
+
+.submit {
+    width: 80px;
+    background-color: #474747;
+    color: #ffffff;
+}
+
+.submit:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+/* Protucts */
+
+.products {
+    background-color: #a19d9d;
+    padding: 30px;
+    height: auto;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgdiv {
+    margin-top: 10px;
+    max-width: 500px;
+    border-radius: 4px;
+}
+
+.imgdiv img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* footer start */
+
+footer .row {
+    background-color: #a19d9d;
+    color: #FFF;
+}
+
+.contact {
+    border-radius: 4px;
+}
+
+.contact_details p {
+    padding-top: 10px;
+}
+
+footer .contact {
+    padding: 60px 100px;
+    justify-content: space-between;
+}
+
+footer .footer_bottom {
+    height: 50px;
+    margin: 20px 0;
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 4px;
+}
+
+
+/* Content Div */
+
+.subcontainer {
+    height: auto;
+    max-width: fit-content;
+    padding: 25px;
+    background-color: #474747;
+    border-radius: 4px;
+}
+
+.subcontainer p {
+    padding-left: 15px;
+    padding-top: 7px;
+}
+
+.subcontainer a {
+    padding: 10px;
+    color: #42586b;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.subcontainer a:hover {
+    color: #fff;
+    background-color: #42586b;
+    text-decoration: none;
+}
+
+.btn {
+    padding: 15px;
+    color: #0F2D49;
+    background-color: #CCBF90;
+}
+
+.image-div {
+    width: 300px;
+    height: 300px;
+}
+
+.image-div img {
+    object-fit: fill;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+}

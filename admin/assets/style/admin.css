@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Utilities */
+
+body {
+    background-color: #474747;
+    overflow-x: hidden;
+}
+
+.container {
+    padding: 15px;
+    height: 100vh;
+}
+
+.row {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+a:hover {
+    color: #000;
+    ;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.rounded {
+    border-radius: 4px;
+}
+
+
+/* Nav */
+
+nav {
+    background-color: #a19d9d;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_group {
+    max-width: 100px;
+    max-height: 60px;
+    min-width: 100px;
+    min-height: 60px;
+}
+
+.logo_group img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 0px 10px;
+    background-color: #a19d9d;
+    font-family: inherit;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    max-width: 180px;
+    min-width: 180px;
+    overflow-x: hidden;
+    background: #fff;
+    box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #000 !important;
+    padding: 14px 8px;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    color: #000 !important;
+    background-color: #a19d9d;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* Products */
+
+.products {
+    background-color: #a19d9d;
+    padding: 20px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.vernav {
+    width: 190px;
+    height: 460px;
+    padding: 20px;
+    background-color: #474747;
+}
+
+.vernav ul li {
+    padding-top: 40px;
+}
+
+.admin_controls {
+    min-width: 310px;
+    background: #C4C4C4;
+    padding: 30px;
+}
+
+.nav-links hr {
+    margin: 15px 0;
+}
+
+.collapse-links a {
+    margin: 10px 0;
+}
+
+.collapsible {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-align: left;
+    background: none;
+    font-family: inherit;
+    font-size: 16px;
+    color: #fff;
+    justify-content: space-between;
+}
+
+.collapsible :hover {
+    color: #000;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+}
+
+.admin_body {
+    height: 85vh;
+}
+
+.page_section {
+    margin-left: 10px;
+    width: 100%;
+    background: #C4C4C4;
+    overflow-y: scroll;
+}
+
+.page_section::-webkit-scrollbar {
+    display: none;
+}
+
+.page_section {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.view_product {
+    width: inherit;
+    padding: 40px;
+}
+
+.view_product h1 {
+    font-size: var(--divTitle);
+    margin-bottom: 20px;
+}
+
+.table {
+    display: flex;
+}
+
+table {
+    flex: 1;
+}
+
+table,
+tr,
+td,
+th {
+    border: 2px solid #000;
+    width: 15%;
+    height: auto;
+    border-collapse: collapse;
+}
+
+th {
+    font-weight: 400;
+}
+
+td {
+    text-align: center;
+}
+
+td,
+th {
+    padding: 2px;
+}
+
+td img {
+    width: 100%;
+    height: 150px;
+}
+
+.loginbox {
+    width: 450px;
+    height: fit-content;
+    background-color: #474747;
+    color: #fff;
+    margin: 2px auto;
+    padding: 30px;
+}
+
+.loginbox p {
+    font-size: 17px;
+}
+
+.loginbox h1 {
+    margin-top: 0px;
+}
+
+h2 {
+    color: #FFF;
+}
+
+.loginbox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+/* text field */
+
+.loginbox input[type="text"],
+input[type="file"],
+input[type="email"],
+select {
+    border: none;
+    border-bottom: 1px solid #fff;
+    height: 40px;
+    padding: 5px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    background: transparent;
+    color: #fff;
+}
+
+.loginbox input[type="text"],
+input[type="url"] {
+    color: #fff;
+}
+
+.btn {
+    width: 100px;
+    height: 45px;
+    background-color: #a19d9d;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #fff;
+    transition: .3s;
+    color: #000;
+}
