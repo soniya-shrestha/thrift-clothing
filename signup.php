@@ -15,6 +15,17 @@
     <!-- logo -->
     <link rel="icon" href="./assets/img/icon.jpg" type="icon type">
     <title>Sign Up Page</title>
+    <script>
+        function validateEmail() {
+            var email = document.getElementById("email").value;
+            var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+\.com$/i;
+            if (emailRegex.test(email)) {
+                alert("Valid email address!");
+            } else {
+                alert("Invalid email address!");
+            }
+        }
+    </script>
 </head>
 
 <body>
@@ -41,7 +52,7 @@
                     <input type="email" id="email" name="email" placeholder="Enter Email" style="color: #000;" required>
                     <input type="password" id="pass" name="password" placeholder="Enter Password" style="color: #000;" required>
                     <input type="text" id="add" name="address" placeholder="Enter Address" style="color: #000;" required>
-                    <button type="submit" class="btn rounded" name="reg_user">Sign Up</button><br><br>
+                    <button type="submit" class="btn rounded" name="reg_user" onclick="validateEmail()">Sign Up</button><br><br>
                 </form>
                 <?php
                 if (isset($_POST['reg_user'])) {
