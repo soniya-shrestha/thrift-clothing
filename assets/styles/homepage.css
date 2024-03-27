@@ -8,12 +8,13 @@
 /* Utilities */
 
 body {
-    background-color: #474747;
+    background-color: honeydew;
 }
 
 .container {
     padding: 15px;
     height: 100vh;
+    background-color: beige;
 }
 
 .row {
@@ -51,7 +52,7 @@ a:hover {
 /* Nav */
 
 nav {
-    background-color: #a19d9d;
+    background-color: rgb(177, 177, 128);
     padding: 15px;
     justify-content: space-between;
     align-items: center;
@@ -92,7 +93,8 @@ input {
 /* Protucts */
 
 .products {
-    background-color: #a19d9d;
+  
+    background-color: rgb(177, 177, 128);
     padding: 30px;
     height: auto;
     margin-top: 10px;
@@ -115,7 +117,7 @@ input {
 /* footer start */
 
 footer .row {
-    background-color: #a19d9d;
+    background-color: rgb(177, 177, 128);
     color: #FFF;
 }
 

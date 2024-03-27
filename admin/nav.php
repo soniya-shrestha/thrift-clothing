@@ -1,4 +1,4 @@
-<nav class="row">
+<nav class="row ">
 
     <div class="logo col">
         <h1> Our Thrift </h1>
@@ -6,8 +6,8 @@
     </div>
 
     <div class="navbar row">
-        <a href="../index.php">Home</a>
-        <div class="dropdown"><button class="dropbtn" style=" color:#fff;"><?php echo $_SESSION['email'] ?></button>
+        <a href="../index.php" style="color:black"><i class='fas fa-home'></i> Home</a>
+        <div class="dropdown"><button class="dropbtn" ><?php echo $_SESSION['email'] ?></button>
             <div class="dropdown-content">
                 <a href="../include/logout.php">Logout</a>
             </div>

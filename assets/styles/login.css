@@ -8,12 +8,13 @@
 /* Utilities */
 
 body {
-    background-color: #474747;
+    background-color: honeydew;
 }
 
 .container {
     padding: 15px;
     height: 100vh;
+    background-color: beige;
 }
 
 .row {
@@ -30,13 +31,9 @@ li {
 
 a {
     text-decoration: none;
-    color: #FFF;
+    color: #000;
 }
 
-a:hover {
-    color: #000;
-    ;
-}
 
 .col {
     display: flex;
@@ -51,7 +48,7 @@ a:hover {
 /* Nav */
 
 nav {
-    background-color: #a19d9d;
+    background-color: rgb(177, 177, 128);
     padding: 15px;
     justify-content: space-between;
     align-items: center;
@@ -61,7 +58,9 @@ nav {
 /* Protucts */
 
 .products {
-    background-color: #a19d9d;
+    background-image: url(../img/logo.jpg);
+    background-position: center;
+    background-color: rgb(177, 177, 128);
     padding: 30px;
     margin-top: 10px;
     align-items: center;
@@ -71,6 +70,7 @@ nav {
 .imgdiv {
     max-width: 500px;
     border-radius: 4px;
+    
 }
 
 .imgdiv img {
@@ -81,7 +81,7 @@ nav {
 .loginbox {
     width: 400px;
     height: fit-content;
-    background-color: #474747;
+    background-color: rgb(141, 141, 101);
     color: rgb(10, 10, 10);
     margin: 50px auto;
     padding: 30px;
@@ -96,12 +96,13 @@ nav {
 }
 
 h2 {
-    color: #FFF;
+    color: #000;
 }
 
 .loginbox input {
     width: 100%;
     margin-bottom: 20px;
+    border-radius: 5px;
 }
 
 
@@ -116,7 +117,7 @@ input[type="password"] {
     padding: 5px;
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
-    background: transparent;
+    background: honeydew;
 }
 
 
@@ -138,9 +139,8 @@ input[type="password"] {
 }
 
 footer .row {
-    background-color: #a19d9d;
-    color: #FFF;
-    ;
+    background-color: rgb(177, 177, 128);
+    color: #000;
 }
 
 .contact_details p {

@@ -1,30 +1,37 @@
-
-<div class="products rounded  ">
-            <h1>Newly Added  Items</h1>
+<?php
+    include('dbconn.php');
+?>
+<div class="products rounded">
+    <h2>Newly Added Items</h2>
     <div class="slider">
-            <div class="slides rounded">
+        <div class="slides rounded">
             <?php
             $query = "SELECT * FROM products";
-            $stmt = mysqli_query($connection,$query);
-            while($row = mysqli_fetch_assoc($stmt)) {
+            $stmt = mysqli_query($connection, $query);
+            if (!$stmt) {
+                die('Query failed' . mysqli_error($connection));
+            }
+            while ($row = mysqli_fetch_assoc($stmt)) {
                 $product_id = $row['product_id'];
                 $product_title = $row['product_name'];
                 $product_price = $row['product_price'];
                 $product_image = $row['product_image'];
-          ?>  
-            <div id="slide col">
-                <div class="img_div">    
-                <?php echo '<img src="data:image;base64,' . base64_encode($row['product_image']) . '">'; ?>                </div>
-                <div class="description">
-                <h3><?php echo $product_title ?></h3>
-                <h3>Price: <?php echo $product_price ?></h3><br>
-                <a class="btn rounded" href="addtocart.php?&name=products&p_id=<?php echo $product_id ?>"> <button type="submit" class="btn rounded"  name="buy">Buy</button></a><br>
+            ?>
+                <div id="slide col">
+                    <div class="img_div">
+                        <?php echo '<img src="data:image;base64,' . base64_encode($row['product_image']) . '">'; ?>
+                    </div>
+                    <div class="description">
+                        <h3><?php echo $product_title ?></h3>
+                        <h3>Price: <?php echo $product_price ?></h3><br>
+                        <a class="btn rounded" href="addtocart.php?&name=products&p_id=<?php echo $product_id ?>">
+                            <button type="submit" class="btn rounded" name="buy">Buy</button>
+                        </a><br>
+                    </div>
                 </div>
-            </div>  
-    <?php
-        }
-    ?>
+            <?php
+            }
+            ?>
+        </div>
     </div>
-    </div>
-    </div>
-      
+</div>

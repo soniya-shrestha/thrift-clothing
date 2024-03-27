@@ -1,5 +1,8 @@
+<?php
+    include('dbconn.php');
+?>
 <div class="products rounded  ">
-            <h1>Restocked</h1>
+            <h2>Women Items</h2>
     <div class="slider">
             <div class="slides rounded">
             <?php

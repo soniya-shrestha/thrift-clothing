@@ -1,7 +1,7 @@
 <?php include "../include/dbconn.php" ?>
 <?php include "./header.php" ?>
 <?php include "./nav.php" ?>
-<div class="admin_body row">
+<div class="admin_body row ">
     <?php include "./sidebar.php" ?>
     <div class="page_section">
     <?php 
@@ -17,4 +17,4 @@
     ?>
     </div>
 </div>
-<?php include "./footer.php" ?>
+<!-- <?php include "../include/footer.php" ?> -->

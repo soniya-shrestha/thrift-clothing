@@ -12,5 +12,5 @@
     <title>Thrifting</title>
 </head>
 <body>
-    <h1>Thrift Clothings || Home Page</h1>
+
 </body>

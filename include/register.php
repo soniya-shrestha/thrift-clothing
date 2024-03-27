@@ -1,6 +1,4 @@
-<?php ob_start(); ?>
-<?php include "./dbconn.php" ?>
-<?php session_start(); ?>
+
 <?php
 if (isset($_POST['reg_user'])) {
     $pwd = $_POST['password'];

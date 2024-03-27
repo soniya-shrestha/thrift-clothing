@@ -3,7 +3,7 @@
 <?php include "./nav.php" ?>
 <div class="admin_body row" >
     <?php include "./sidebar.php" ?>
-    <div class="loginbox  add_category"style="background-color:#a19d9b; margin-top:50px;" >
+    <div class="loginbox  add_category" style="rgb(141, 141, 101); margin-top:50px;" >
         <h2>Add Category</h2>
         <?php
         if (isset($_POST['addproduct'])) {
@@ -12,7 +12,7 @@
             $add_stmt = mysqli_query($connection, $add_cate);
             if ($add_cate) {
                 echo "<script>
-                 alert('Catehory Added Sucessfully');
+                 alert('Category Added Sucessfully');
                  window.location = 'http://localhost/thrift-clothing/admin/adminviewcategory.php';
             </script>";
             } else {

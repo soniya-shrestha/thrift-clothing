@@ -1,9 +1,9 @@
 <?php include "../include/dbconn.php" ?>
 <?php include "./header.php" ?>
 <?php include "./nav.php" ?>
-<div class="admin_body row">
+<div class="admin_body row" >
     <?php include "./sidebar.php" ?>
-    <div class="page_section">
+    <div class="page_section " >
     <?php 
         if(isset($_GET['source'])) {
             $source = $_GET['source'];

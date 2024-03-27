@@ -8,11 +8,12 @@
 /* Utilities */
 
 body {
-    background-color: #474747;
+    background-color: honeydew;
     overflow-x: hidden;
 }
 
 .container {
+   
     padding: 15px;
     height: 100vh;
 }
@@ -30,13 +31,8 @@ li {
 }
 
 a {
-    text-decoration: none;
-    color: #FFF;
-}
-
-a:hover {
     color: #000;
-    ;
+    text-decoration: none;
 }
 
 .col {
@@ -52,7 +48,7 @@ a:hover {
 /* Nav */
 
 nav {
-    background-color: #a19d9d;
+    /* background-color: #a19d9d; */
     padding: 15px;
     justify-content: space-between;
     align-items: center;
@@ -76,8 +72,8 @@ nav {
     border: none;
     outline: none;
     padding: 0px 10px;
-    background-color: #a19d9d;
     font-family: inherit;
+    background: none;
 }
 
 .dropdown-content {
@@ -166,12 +162,14 @@ nav {
 
 .admin_body {
     height: 85vh;
+    background: beige;
+    margin: 5px;
 }
 
 .page_section {
     margin-left: 10px;
     width: 100%;
-    background: #C4C4C4;
+    background: beige;
     overflow-y: scroll;
 }
 
@@ -195,10 +193,12 @@ nav {
 }
 
 .table {
+    
     display: flex;
 }
 
 table {
+    border-radius: 5px;
     flex: 1;
 }
 
@@ -233,7 +233,7 @@ td img {
 .loginbox {
     width: 450px;
     height: fit-content;
-    background-color: #474747;
+    background-color: rgb(141, 141, 101);
     color: #fff;
     margin: 2px auto;
     padding: 30px;
@@ -248,7 +248,7 @@ td img {
 }
 
 h2 {
-    color: #FFF;
+    color: black;
 }
 
 .loginbox input {
@@ -292,3 +292,90 @@ input[type="url"] {
     transition: .3s;
     color: #000;
 }
+
+
+.heading {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+  border-radius: 10px;
+  background: #F2F6FD;
+  padding: 22px;
+  position: absolute;
+  top: 200px;
+  left: 375px;
+  transform: translate(-50%, -50%);
+}
+
+.card-design {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+     border-radius: 10px;
+    width: 400px;
+    height: 141px;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+}
+
+.card-1 {
+    margin-left: 10px;
+  background:  #E6C5EE;
+  overflow: hidden;
+
+}
+
+.card-2 {
+  margin-left: 50px;
+  background:  #E6C5EE;
+  overflow: hidden;
+}
+
+.card-3 {
+    margin-left: 50px;
+    background:  #E6C5EE;
+    overflow: hidden;
+  }
+
+.card .card-content {
+  padding: 10px;
+  font-family: 'Inter';
+  font-size: 20px;
+  text-align: center;
+  margin-top: 25px;
+  margin-right: 80px;
+
+}
+
+.card-title {
+  color: #4A07C6;
+  margin-right: 70px;
+  font-size: 32px;
+}
+
+.card .card-content .card-title,
+.card .card-content .card-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+}
+
+ .card-text {
+  margin-top: 16px;
+  
+}
+
+
+
+
+
+

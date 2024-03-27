@@ -9,6 +9,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/styles/signup.css">
+    <!-- Include Font Awesome from a CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
     <!-- logo -->
     <link rel="icon" href="./assets/img/icon.jpg" type="icon type">
     <title>Sign Up Page</title>
@@ -18,7 +21,7 @@
     <div class="container" style="color: #fff;">
         <nav class="row rounded">
             <ul class="row">
-                <li><a href="index.php">Back To Home</a></li>
+                <li><a href="index.php"><i class='fas fa-home'></i> Back To Home</a></li>
             </ul>
 
             <ul class="row">
@@ -26,18 +29,18 @@
             </ul>
         </nav>
         <div class="products rounded col">
-            <h1>Thrift Cloithing</h1>
+            <h1>Thrift Clothing</h1>
 
 
             <!-- Login Box -->
             <div class="loginbox rounded signup">
                 <h2>Sign Up</h2>
                 <form action="#" method="POST"><br>
-                    <input type="text" id="name" name="name" placeholder="Enter  Name" style="color: #fff;" required>
+                    <input type="text" id="name" name="name" placeholder="Enter  Name" style="color: #000;" required>
 
-                    <input type="email" id="email" name="email" placeholder="Enter Email" style="color: #fff;" required>
-                    <input type="password" id="pass" name="password" placeholder="Enter Password" style="color: #fff;" required>
-                    <input type="text" id="add" name="address" placeholder="Enter Address" style="color: #fff;" required>
+                    <input type="email" id="email" name="email" placeholder="Enter Email" style="color: #000;" required>
+                    <input type="password" id="pass" name="password" placeholder="Enter Password" style="color: #000;" required>
+                    <input type="text" id="add" name="address" placeholder="Enter Address" style="color: #000;" required>
                     <button type="submit" class="btn rounded" name="reg_user">Sign Up</button><br><br>
                 </form>
                 <?php

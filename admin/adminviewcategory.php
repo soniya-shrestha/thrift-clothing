@@ -4,10 +4,10 @@
 
 <div class="admin_body row" >
     <?php include "./sidebar.php" ?>
-    <div class="view_category" style="margin:5px; width:100%;background-color: #C4C4C4;">
+    <div class="view_category" style="margin:5px; width:100%;background-color: beige;">
         <h1 style="padding: 10px;">All Category</h1><br>
         <div class="table" style="margin:20px ;">
-            <table style=" font-size:22px;margin:px; color:#fff;">
+            <table style=" font-size:22px;margin:px; color:#000;background-color: honeydew;">
                 <tr style="color: #000;">
                     <th>ID</th>
                     <th>Name</th>
@@ -26,7 +26,7 @@
                     echo "<tr>";
                     echo "<td> $cate_id</td>";
                     echo "<td>$cate_name</td>";
-                    echo "<td><a href='adminviewcategory.php?del_post={$cate_id}'>Delete</a>";
+                    echo "<td><a style='color:red;' href='adminviewcategory.php?del_post={$cate_id}'><i class='fas fa-trash'></i></a>";
                     echo "</tr>";
                 }
                 ?>
